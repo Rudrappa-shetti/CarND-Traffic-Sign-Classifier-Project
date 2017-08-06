@@ -43,7 +43,8 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-All output bar charts in the folder : CarND-Traffic-Sign-Classifier-Project\test_pics
+![alt text](histogram.png)
+![alt text](hist_train_test_valid.png)
 
 ###Design and Test a Model Architecture
 
@@ -148,6 +149,14 @@ The model was able to correctly guess 5 of the 6 traffic signs, which gives an a
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The code for making predictions on my final model is located in the 17th cell of the Ipython notebook.
+
+![alt text](3-60speed.png)
+![alt text](12-priority-road.png)
+![alt text](14-stop.png)
+![alt text](17-no-entry.png)
+![alt text](18-general-caution.png)
+![alt text](40-roundabout-mandatory.png)
+
 
 For the first image, the model is relatively sure that this is a Priority road (probability of 1.0), and the image does contain a Priority road. The top five soft max probabilities were
 
