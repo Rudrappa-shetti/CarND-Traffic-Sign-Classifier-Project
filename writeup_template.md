@@ -100,7 +100,8 @@ I ran only 20 epochs, primarily as a result of time and further performance gain
 and further epochs resulted in only marginal gains while continuing to increase time incurred in training. 
 Additionally, there is no guarantee that further improvement in validation accuracy does anything other than just overfit the data (although adding dropout to the model does help in that regard).
 
-For the model hyperparameters, I stuck with a mean of 0 and standard deviation/sigma of 0.1. 
+ 
+Hyperparameter used in the project are mu = 0 and sigma = 0.1.
 An important aspect of the model is trying to keep a mean of 0 and equal variance, so these hyperparameters attempt to follow this philosophy.
  I tried a few other standard deviations but found a smaller one did not really help, while a larger one vastly increased the training time necessary.
 
@@ -181,6 +182,11 @@ For the fifth image, the model is relatively sure that this is a Right of way at
 For the sixth image, the model is relatively sure that this is a roundabout mandotory (probability of 1.0), and the image does contain a roundabout mandotory.
 
 Softmax_output : ![alt text](./output_images/internet_images.png)
+
+The 60 speed image is hidden between the other signs and is little blurry due to which the traffic sign Classifier has problem to classify it and 
+provides the wron prediction.
+
+- 
 
 
 
