@@ -50,6 +50,8 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 ####1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
+grayscale image : ![alt text](./output/images/gray_images.png)
+
 As a first step, I decided to convert the images to grayscale because grayscaling would make the neural network faster.
 TensorFlow's tf.image.rgb_to_grayscale() function was an option, but I found that to be a little slow. 
 OpenCV's grayscaling was also an option, although it gives back only height and depth, and would therefore require some
@@ -176,6 +178,7 @@ For the fourth image, the model is relatively sure that this is a general cautio
 For the fifth image, the model is relatively sure that this is a Right of way at next intersection (probability of 1.0), and the image does not contain a Right of way at next intersection.(here the prediction went wrong)
 For the sixth image, the model is relatively sure that this is a roundabout mandotory (probability of 1.0), and the image does contain a roundabout mandotory.
 
+output of Softmax : ![alt text](./output/images/internet_images.png)
 
 
 
