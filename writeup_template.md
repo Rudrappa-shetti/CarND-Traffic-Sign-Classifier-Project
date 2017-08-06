@@ -43,8 +43,8 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-![alt text](histogram.png)
-![alt text](hist_train_test_valid.png)
+![alt text](./output/images/histogram.png)
+![alt text](./output/images/hist_train_test_valid.png)
 
 ###Design and Test a Model Architecture
 
