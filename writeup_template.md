@@ -46,6 +46,7 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 ![alt text](./output_images/histogram.png)
 
 the visualization of training,testing and validation data is shown below:
+
 ![alt text](./output_images/hist_train_test_valid.png)
 
 ###Design and Test a Model Architecture
@@ -186,9 +187,8 @@ For the sixth image, the model is relatively sure that this is a roundabout mand
 Softmax_output : ![alt text](./output_images/internet_images.png)
 
 The 60 speed image is hidden between the other signs and is little blurry due to which the traffic sign Classifier has problem to classify it and 
-provides the wron prediction.
+provides the wrong prediction.
 
-- 
 
 
 
