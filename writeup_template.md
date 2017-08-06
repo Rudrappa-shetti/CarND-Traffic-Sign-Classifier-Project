@@ -44,6 +44,8 @@ signs data set:
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
 ![alt text](./output_images/histogram.png)
+
+the visualization of training,testing and validation data is shown below:
 ![alt text](./output_images/hist_train_test_valid.png)
 
 ###Design and Test a Model Architecture
